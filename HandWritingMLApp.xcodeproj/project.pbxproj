@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1935CB18206960080033FF82 /* handwriting.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1935CB17206960080033FF82 /* handwriting.mlmodel */; };
 		19C7941A20688FF400C95022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C7941920688FF400C95022 /* AppDelegate.swift */; };
-		19C7941C20688FF400C95022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C7941B20688FF400C95022 /* ViewController.swift */; };
+		19C7941C20688FF400C95022 /* DrawingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C7941B20688FF400C95022 /* DrawingVC.swift */; };
 		19C7941F20688FF400C95022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C7941D20688FF400C95022 /* Main.storyboard */; };
 		19C7942120688FF400C95022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C7942020688FF400C95022 /* Assets.xcassets */; };
 		19C7942420688FF400C95022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C7942220688FF400C95022 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1935CB17206960080033FF82 /* handwriting.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = handwriting.mlmodel; sourceTree = "<group>"; };
 		19C7941620688FF400C95022 /* HandWritingMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandWritingMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C7941920688FF400C95022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19C7941B20688FF400C95022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19C7941B20688FF400C95022 /* DrawingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingVC.swift; sourceTree = "<group>"; };
 		19C7941E20688FF400C95022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19C7942020688FF400C95022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C7942320688FF400C95022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				19C7941920688FF400C95022 /* AppDelegate.swift */,
-				19C7941B20688FF400C95022 /* ViewController.swift */,
+				19C7941B20688FF400C95022 /* DrawingVC.swift */,
 				19C7941D20688FF400C95022 /* Main.storyboard */,
+				1935CB17206960080033FF82 /* handwriting.mlmodel */,
 				19C7942020688FF400C95022 /* Assets.xcassets */,
 				19C7942220688FF400C95022 /* LaunchScreen.storyboard */,
 				19C7942520688FF400C95022 /* Info.plist */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C7941C20688FF400C95022 /* ViewController.swift in Sources */,
+				19C7941C20688FF400C95022 /* DrawingVC.swift in Sources */,
+				1935CB18206960080033FF82 /* handwriting.mlmodel in Sources */,
 				19C7941A20688FF400C95022 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
