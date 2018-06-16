@@ -1,0 +1,28 @@
+Convolutional Neural Networks:
+Trying every possible match - Convolution
+
+One layer could be a stack of filtered images
+Pooling layer shrinks the stack
+Normalization layer gets rid of negative values, turns them to zero
+Layers get stacked
+
+
+
+Pooling - shrinks the image stack
+ - Pick a window size (2 or 3)
+ - Pick a stride(usually 2 pixels)
+ - Walk your window across your filtered images
+ - from each window, take the max value(max pooling)
+
+ Normalization - Keeps the math from breaking by tweaking the values
+ just a bit.
+              - Change everything negative to zero using rectified linear units (ReLU)
+
+Convolution to ReLU to Pooling
+Deep stacking repeats these layers as much as you want
+
+Fully connected layer
+- Dense layer in Keras
+- Data stacked in one long column
+- Each pixel becomes a neuron
+- feature values become votes, if = this, vote that
